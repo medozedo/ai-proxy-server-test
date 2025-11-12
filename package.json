@@ -1,0 +1,27 @@
+{
+  "name": "ai-proxy-server",
+  "version": "1.0.0",
+  "description": "Generic AI proxy server with rate limiting and security",
+  "main": "server-clean.js",
+  "scripts": {
+    "start": "node server-clean.js",
+    "dev": "nodemon server-clean.js"
+  },
+  "keywords": ["ai", "proxy", "api", "rate-limiting", "security"],
+  "author": "Generic Developer",
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.17.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0",
+    "helmet": "^7.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
